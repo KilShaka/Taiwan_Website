@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    box-sizing: border-box;
 }
 body {
         font-family: "Roboto", sans-serif;
@@ -60,6 +61,10 @@ footer {
     background-size: 100px;
     margin-top: 40px;
 }
+
+#logo-foot img{
+    width: 30px;
+ }
 
 .container {
     width: 1000px;
@@ -151,4 +156,90 @@ footer {
     gap: 15px;
     color: #2f4558;
 }
-          
+
+#flexbox-foot {   
+display: flex;
+align-items: center;
+gap: 80px;
+justify-content: space-between;
+}
+   
+/* RESPONSIVE */
+
+/* 1024px = NOTEBOOK */
+@media all and (max-width: 1060px) {
+.container {
+    width: 800px
+}
+
+.destination_container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#Taipei {
+    grid-row: 1 / 3;
+}
+
+#Cingjing {
+    grid-column: 2 / 3;
+}
+
+#Kaohsiung {
+    grid-column: 1 / 3;
+}
+
+}
+
+/* 768px = Tablette */
+@media all and (max-width: 800px) {
+
+.container {
+    width: 600px
+}
+.destination_container {
+    grid-template-columns: 1fr;
+}
+#Taipei {
+    grid-row: auto;
+}
+
+#Cingjing {
+    grid-column: auto;
+}
+
+#Kaohsiung {
+    grid-column: auto;
+}
+
+#flexbox-foot {   
+    flex-direction: column;
+    gap:10px
+    }
+
+#logo-foot {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo-foot img{
+   width: 50px;
+}
+
+footer {
+    font-size: 16px;
+}
+
+}
+
+/* 480px = Smartphone  */
+@media all and (max-width: 615px){
+
+.container {
+    width: 100%;
+}
+
+header {
+    font-size: 2.5em;
+}
+}
+
