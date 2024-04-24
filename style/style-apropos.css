@@ -1,0 +1,148 @@
+@charset "UTF-8";
+.wrapper__prénom, .wrapper__nom, .wrapper__email, .wrapper__Message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+.wrapper__prenometnom, .wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.wrapper {
+  background-color: rgba(0, 28, 52, 0.6352941176);
+  width: 450px;
+  height: 280px;
+  border-radius: 10px;
+  color: white;
+}
+
+.wrapper__all {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.input--message {
+  width: 420px;
+  height: 60px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.input--Mail {
+  width: 420px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "pacifico";
+  font-weight: 600;
+  font-size: 2.5em;
+  margin-top: 20px;
+}
+
+header, h1 {
+  text-align: center;
+}
+
+.contenu {
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.wrapper__contactus {
+  color: white;
+  font-family: "pacifico", cursive;
+  text-shadow: -1px 5px 15px black;
+}
+.wrapper__contactus--title {
+  font-size: 70px;
+}
+
+.container__paragraph {
+  text-align: center;
+  margin: 50px;
+}
+
+ul {
+  display: flex;
+  gap: 15px;
+  margin: 5px 15px;
+  padding: 0;
+  list-style-type: none;
+}
+
+li a {
+  color: #2f4558;
+  font-weight: 450;
+}
+
+p {
+  margin: 15px 0;
+  text-align: center;
+}
+
+footer {
+  background-color: #2F4558;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  background-image: url("https://cdn.pixabay.com/photo/2023/04/17/12/10/pattern-7932239_1280.jpg");
+  background-size: 100px;
+  margin-top: 40px;
+}
+
+#logo-foot img {
+  width: 30px;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+.contenu h1 {
+  font-family: "fangsong";
+}
+
+#Taiwan {
+  background-image: url("../assets/images/taiwan.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position-x: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style-apropos.css.map */
