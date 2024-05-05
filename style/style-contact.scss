@@ -20,6 +20,7 @@
     height: 280px;
     border-radius: 10px;
     color: white;
+    margin-bottom: 40px;
 }
 
 .wrapper__all {
@@ -37,9 +38,12 @@
 
 .input--message {
     width: 420px;
+    max-width: 420px;
     height: 60px;
     border-radius: 5px;
     padding: 5px;
+    height: 110px;
+    max-height: 110px;
 }
 
 .input--Mail {
@@ -79,10 +83,10 @@ width: 100%;
 
 .wrapper__contactus {
     color: white;
-    font-family: "pacifico", cursive;
     text-shadow: -1px 5px 15px black;
     &--title {
         font-size: 70px;
+        font-family: "pacifico", cursive;
     }
     
 }
@@ -143,4 +147,24 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#logo-foot img{
+   width: 30px;
+}
+
+footer {
+    font-size: 16px;
+}
+
+#flexbox-foot {   
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    justify-content: space-between;
+        }
+
+#slogan {
+    font-size: larger;
+    font-style: italic;
 }
