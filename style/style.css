@@ -131,6 +131,7 @@ footer {
 
 .cities:hover {
     border: solid 3px #2F4558;
+    transform: scale(105%);
 }
 
 .destination_container {
